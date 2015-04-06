@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby'2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
@@ -19,7 +19,7 @@ gem 'jquery-rails'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
-  gem 'debugger'
+  # gem 'debugger'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -34,3 +34,18 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+group :development, :test do
+  gem "rspec-rails", "~> 2.14"
+  gem "factory_girl_rails"
+  gem 'ffaker'
+end
+gem "devise"
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
+# gem 'ruby-debug-ide'
+
+
