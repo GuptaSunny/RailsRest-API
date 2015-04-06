@@ -45,6 +45,7 @@ gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
 gem 'compass-rails'
 gem 'furatto'
 gem 'font-awesome-rails'
+gem 'apipie-rails'
 gem 'simple_form'
 # gem 'ruby-debug-ide'
 
